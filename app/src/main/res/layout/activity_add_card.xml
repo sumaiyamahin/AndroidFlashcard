@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <ImageView
+        android:id="@+id/exitbutton"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/enterquestion"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/dismiss"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <EditText
+        android:id="@+id/enterquestion"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Enter the question here :)"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/enteranswer"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/enterquestion"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Enter the answer here :)" />
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_alignEnd="@+id/enterquestion"
+        android:layout_alignTop="@+id/exitbutton"
+        app:srcCompat="@drawable/save" />
+
+
+</RelativeLayout>

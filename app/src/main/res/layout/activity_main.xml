@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:text="Where does SpongeBob work?"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:background="#0D3B49"
+        android:textColor="#83CDE3"
+        />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/flashcard_question"
+        android:background="#a6ff08"
+        android:text="SpongeBob works at Krusty Krab"
+        android:textAlignment="center"
+        android:textColor="#65378d"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/addbutton"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/add" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="62dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="163dp"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@drawable/next" />
+
+
+</RelativeLayout>
