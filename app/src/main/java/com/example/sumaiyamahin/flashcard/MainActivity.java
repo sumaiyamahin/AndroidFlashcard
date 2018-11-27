@@ -12,7 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import java.util.List;
-
+//test
 public class MainActivity extends AppCompatActivity {
     //define my class variables
     FlashcardDatabase flashcardDatabase; //contains ALL  of my flashcards
